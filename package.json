@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "view": "ts-node example.ts && xdg-open dist/example.svg"
+    "view": "ts-node gravityPentagon.ts && xdg-open dist/gravityPentagon.svg"
   },
   "author": "",
   "license": "ISC",
