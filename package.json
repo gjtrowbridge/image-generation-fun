@@ -1,0 +1,18 @@
+{
+  "name": "svg-by-hand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.1.2",
+    "svgdom": "^0.1.10"
+  }
+}
