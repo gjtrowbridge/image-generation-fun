@@ -16,3 +16,20 @@ export function getEquilateralPolygon(
   }
   return points
 }
+
+export function distanceBetweenPoints(
+  point1: [number, number],
+  point2: [number, number]
+): number {
+  return Math.sqrt((point1[0] - point2[0]) ** 2 + (point1[1] - point2[1]) ** 2)
+}
+
+// function doLinesOverlap() {
+//   // If parallel, return false
+//   // If non-parallel, calculate intersection point, make sure it is in bounds for both
+// }
+//
+// export function doPolygonsOverlap(
+//   points1: Array<[number, number]>,
+//   points2: Array<[number, number]>
+// ) {}
